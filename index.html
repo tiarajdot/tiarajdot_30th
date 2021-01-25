@@ -233,12 +233,30 @@
       
       <p>
         
+        
+    <video  autoplay loop controls muted>
+      <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+   </video>
+</div>
+
+
+        
          <div class="flex-row">
           <div class="flex-item flex-item-stretch flex-column">
              <h2 class="add-top-margin">Cheers <3</h2>
+             <div class="video-size">
             <video preload controls autoplay loop muted playsinline class="image">
               <source src="cheera.mp4">
-              Your browser does not support the video tag.
+             
+              .video-size {
+    height:400px;
+    width:100%;
+    overflow:hidden;
+}
+.video-size > video {
+    min-width: 100%;
+    min-height: 100%;
+}
             </video>
         </div>
         
