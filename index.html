@@ -47,6 +47,25 @@
             </video>
            </center>
         </div>
+      
+         <h2 class="add-top-margin">Wish Me a Happy Birthday</h2>
+
+
+<form>
+<textarea id="words" rows="10" cols="20">Drop a Line</textarea>
+<input type="button" onclick="getwords()" value="Enter" /> <br>
+<p id="para"></p>
+</form>
+
+<script type="text/javascript">
+function getwords() {
+text = words.value;
+document.getElementById("para").innerHTML += '<p>'+text
+document.getElementById("words").value = "enter"
+}
+</script>
+
+
         
         <div class="flex-row">
           <div class="flex-item flex-column">
@@ -180,7 +199,7 @@
      
         <div class="flex-row">
           <div class="flex-item flex-column">
-            <center> <h2 class="add-top-margin">My Loves</h2> </center>
+            <center> <h2>My Loves</h2> </center>
             <hr>
             <p class="text">
       
@@ -206,24 +225,7 @@
       
       <p>
       
-      <h2 class="add-top-margin">Wish Me a Happy Birthday</h2>
-
-
-<form>
-<textarea id="words" rows="10" cols="20">Drop a Line</textarea>
-<input type="button" onclick="getwords()" value="Enter" /> <br>
-<p id="para"></p>
-</form>
-
-<script type="text/javascript">
-function getwords() {
-text = words.value;
-document.getElementById("para").innerHTML += '<p>'+text
-document.getElementById("words").value = "enter"
-}
-</script>
-
-
+   
  
          
 </body>
