@@ -203,6 +203,27 @@
           
         </div>
           </div>
+      
+      <p>
+      
+      h<h2> class="add-top-margin">Wish Me a Happy Birthday</h2>
+
+
+<form>
+<textarea id="words" rows="10" cols="20">Drop a Line</textarea>
+<input type="button" onclick="getwords()" value="Enter" /> <br>
+<p id="para"></p>
+</form>
+
+<script type="text/javascript">
+function getwords() {
+text = words.value;
+document.getElementById("para").innerHTML += '<p>'+text
+document.getElementById("words").value = "enter"
+}
+</script>
+
+
  
          
 </body>
